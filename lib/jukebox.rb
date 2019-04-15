@@ -46,8 +46,8 @@ def run(songs)
   #help
   input = ""
   puts "Please enter a command:"
-  input = gets.downcase.chomp
   while input
+    input = gets.downcase.chomp
     if input == "list"
       list(songs)
     elsif input == "play"
